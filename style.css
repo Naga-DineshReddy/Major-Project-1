@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.card {
+  max-width: 720px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(20, 30, 60, 0.08);
+}
+
+.form-error {
+  font-size: 0.875rem;
+  color: #b00020;
+}
+
+.valid-feedback {
+  display: block;
+}
+
+#successBanner {
+  display: none;
+}
